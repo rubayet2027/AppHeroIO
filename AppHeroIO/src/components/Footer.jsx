@@ -6,7 +6,7 @@ import { Link, NavLink } from 'react-router-dom'
 const Footer = () => {
     return (
         <div>  
-            <footer className="footer sm:footer-horizontal bg-base-200 text-base-content p-10 ">
+            <footer className="footer sm:footer-horizontal bg-[#001931] text-white p-10 ">
                 <nav>
                     <h6 className="footer-title">Services</h6>
                     <a className="link link-hover">Branding</a>
@@ -27,9 +27,10 @@ const Footer = () => {
                     <a className="link link-hover">Cookie policy</a>
                 </nav>
             </footer>
-            <footer className="footer bg-base-200 text-base-content border-base-300 border-t px-10 py-4">
+            <footer className="footer bg-[#001931] text-white border-t border-[0.5px] border-white/5 px-10 py-4">
+
                 <aside className="grid-flow-col items-center">
-                    <NavLink to={"/"} className="flex items-center gap-3 inter-body text-[20px] font-bold bg-gradient-to-r from-[#632EE3] to-[#9F62F2] bg-clip-text text-transparent">
+                    <NavLink to={"/"} className="flex items-center gap-3 inter-body text-[20px] font-bold text-white">
                         <img src={logo} alt="logo" className="h-9 w-9 object-contain" />
                         <span>AppHero.IO</span>
                     </NavLink>

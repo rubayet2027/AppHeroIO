@@ -16,26 +16,34 @@ export default function NavBar() {
                             tabIndex={0}
                             className="menu menu-sm dropdown-content bg-base-100 rounded-box z-1 mt-3 w-52 p-2 shadow">
                             <li>
-                                <NavLink to={"/"} className={({isActive}) => `relative px-2 py-1 ${isActive ? 'navlink-active' : 'navlink-inactive'}`}>
+                                <NavLink to={"/"} className={({ isActive }) => `relative px-2 py-1 ${isActive ? 'navlink-active' : 'navlink-inactive'}`}>
                                     Home
                                 </NavLink>
                             </li>
                             <li>
-                                <NavLink to={"/apps"} className={({isActive}) => `relative px-2 py-1 ${isActive ? 'navlink-active' : 'navlink-inactive'}`}>
+                                <NavLink to={"/apps"} className={({ isActive }) => `relative px-2 py-1 ${isActive ? 'navlink-active' : 'navlink-inactive'}`}>
                                     Apps
                                 </NavLink>
                             </li>
                             <li>
-                                <NavLink to={"/installation"} className={({isActive}) => `relative px-2 py-1 ${isActive ? 'navlink-active' : 'navlink-inactive'}`}>
+                                <NavLink to={"/installation"} className={({ isActive }) => `relative px-2 py-1 ${isActive ? 'navlink-active' : 'navlink-inactive'}`}>
                                     Installation
                                 </NavLink>
                             </li>
                         </ul>
                     </div>
-                    <NavLink to={"/"} className="flex items-center gap-3 inter-body text-[20px] font-bold bg-gradient-to-r from-[#632EE3] to-[#9F62F2] bg-clip-text text-transparent">
-                        <img src={logo} alt="logo" className="h-9 w-9 object-contain" />
+                    <NavLink
+                        to="/"
+                        className="flex items-center gap-2 sm:gap-3 font-bold inter-body text-sm sm:text-base md:text-lg bg-gradient-to-r from-[#632EE3] to-[#9F62F2] bg-clip-text text-transparent"
+                    >
+                        <img
+                            src={logo}
+                            alt="logo"
+                            className="h-7 w-7 sm:h-8 md:h-9 object-contain"
+                        />
                         <span>AppHero.IO</span>
                     </NavLink>
+
                 </div>
                 <div className="navbar-center hidden lg:flex">
                     <ul className="menu menu-horizontal px-1 text-[15px] font-medium">
