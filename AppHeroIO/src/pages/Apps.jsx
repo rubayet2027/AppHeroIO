@@ -17,7 +17,7 @@ export default function Apps() {
         setAllApps(data);
         setFilteredApps(data);
         setLoading(false);
-      }, 3000);
+      }, 1000);
       })
   }, []);
 
@@ -30,7 +30,7 @@ export default function Apps() {
 
   return (
     <div className="mt-20">
-      <h2 className="text-3xl font-bold text-center my-4">Our All Applications</h2>
+      <h2 className="text-4xl font-bold text-center my-4 text-[#001931]">Our All Applications</h2>
       <p className="text-center text-gray-600">
         Explore All Apps on the Market developed by us. We code for Millions
       </p>

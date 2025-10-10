@@ -1,7 +1,6 @@
 import React from 'react';
 import download from '../assets/assets/icon-downloads.png';
 import ratings from '../assets/assets/icon-ratings.png'; 
-
 const Card = ({app}) => {
     return (
         <div>

@@ -1,11 +1,11 @@
 [
   {
-    "image": "/public/Appicons/instagram.png",
+    "image": "/Appicons/instagram.png",
     "title": "Instagram",
     "companyName": "Meta",
     "id": 1,
     "description": "Photo and video sharing social network.",
-    "size": 48,
+    "size": "48 MB",
     "reviews": "10M",
     "ratingAvg": 4.7,
     "downloads": "1B",
@@ -18,12 +18,12 @@
     ]
   },
   {
-    "image": "./Appicons/youtube.png",
+    "image": "/Appicons/youtube.png",
     "title": "YouTube",
     "companyName": "Google",
     "id": 2,
     "description": "Video sharing and streaming platform.",
-    "size": 60,
+    "size": "60 MB",
     "reviews": "12M",
     "ratingAvg": 4.8,
     "downloads": "2B",
@@ -36,12 +36,12 @@
     ]
   },
   {
-    "image": "./Appicons/facebook.png",
+    "image": "/Appicons/facebook.png",
     "title": "Facebook",
     "companyName": "Meta",
     "id": 3,
     "description": "Social networking service.",
-    "size": 50,
+    "size": "50 MB",
     "reviews": "8M",
     "ratingAvg": 4.4,
     "downloads": "2.5B",
@@ -54,12 +54,12 @@
     ]
   },
   {
-    "image": "./Appicons/whatsapp.png",
+    "image": "/Appicons/whatsapp.png",
     "title": "WhatsApp",
     "companyName": "Meta",
     "id": 4,
     "description": "Instant messaging and VoIP service.",
-    "size": 45,
+    "size": "45 MB",
     "reviews": "9M",
     "ratingAvg": 4.6,
     "downloads": "5B",
@@ -72,12 +72,12 @@
     ]
   },
   {
-    "image": "./Appicons/social-media.png",
+    "image": "/Appicons/social-media.png",
     "title": "TikTok",
     "companyName": "ByteDance",
     "id": 5,
     "description": "Short-form mobile video sharing platform.",
-    "size": 55,
+    "size": "55 MB",
     "reviews": "7M",
     "ratingAvg": 4.7,
     "downloads": "3B",
@@ -90,12 +90,12 @@
     ]
   },
   {
-    "image": "./Appicons/logo.png",
+    "image": "/Appicons/logo.png",
     "title": "Snapchat",
     "companyName": "Snap Inc.",
     "id": 6,
     "description": "Multimedia messaging app with filters and stories.",
-    "size": 50,
+    "size": "50 MB",
     "reviews": "6M",
     "ratingAvg": 4.3,
     "downloads": "2B",
@@ -108,12 +108,12 @@
     ]
   },
   {
-    "image": "./Appicons/spotify.png",
+    "image": "/Appicons/spotify.png",
     "title": "Spotify",
     "companyName": "Spotify Ltd.",
     "id": 7,
     "description": "Music streaming service.",
-    "size": 65,
+    "size": "65 MB",
     "reviews": "7.5M",
     "ratingAvg": 4.8,
     "downloads": "1.8B",
@@ -126,12 +126,12 @@
     ]
   },
   {
-    "image": "./Appicons/telegram.png",
+    "image": "/Appicons/telegram.png",
     "title": "Telegram",
     "companyName": "Telegram FZ LLC",
     "id": 8,
     "description": "Cloud-based instant messaging app.",
-    "size": 40,
+    "size": "40 MB",
     "reviews": "5M",
     "ratingAvg": 4.5,
     "downloads": "800M",
@@ -144,12 +144,12 @@
     ]
   },
   {
-    "image": "./Appicons/google-maps.png",
+    "image": "/Appicons/google-maps.png",
     "title": "Google Maps",
     "companyName": "Google",
     "id": 9,
     "description": "Mapping and navigation service.",
-    "size": 70,
+    "size": "70 MB",
     "reviews": "6.5M",
     "ratingAvg": 4.6,
     "downloads": "1.6B",
@@ -162,12 +162,12 @@
     ]
   },
   {
-    "image": "./Appicons/linkedin.png",
+    "image": "/Appicons/linkedin.png",
     "title": "LinkedIn",
     "companyName": "Microsoft",
     "id": 10,
     "description": "Professional networking platform.",
-    "size": 60,
+    "size": "60 MB",
     "reviews": "5.5M",
     "ratingAvg": 4.4,
     "downloads": "1B",
@@ -180,12 +180,12 @@
     ]
   },
   {
-    "image": "./Appicons/twitter.png",
+    "image": "/Appicons/twitter.png",
     "title": "Twitter",
     "companyName": "X Corp.",
     "id": 11,
     "description": "Social networking, microblogging platform.",
-    "size": 55,
+    "size": "55 MB",
     "reviews": "5M",
     "ratingAvg": 4.2,
     "downloads": "1.1B",
@@ -198,12 +198,12 @@
     ]
   },
   {
-    "image": "./Appicons/reddit.png",
+    "image": "/Appicons/reddit.png",
     "title": "Reddit",
     "companyName": "Reddit Inc.",
     "id": 12,
     "description": "Social news aggregation and discussion website.",
-    "size": 50,
+    "size": "50 MB",
     "reviews": "4.2M",
     "ratingAvg": 4.3,
     "downloads": "800M",
@@ -216,12 +216,12 @@
     ]
   },
   {
-    "image": "./Appicons/netflix.png",
+    "image": "/Appicons/netflix.png",
     "title": "Netflix",
     "companyName": "Netflix Inc.",
     "id": 13,
     "description": "Streaming platform for movies and TV shows.",
-    "size": 70,
+    "size": "70 MB",
     "reviews": "8M",
     "ratingAvg": 4.7,
     "downloads": "2B",
@@ -234,12 +234,12 @@
     ]
   },
   {
-    "image": "./Appicons/pinterest.png",
+    "image": "/Appicons/pinterest.png",
     "title": "Pinterest",
     "companyName": "Pinterest Inc.",
     "id": 14,
     "description": "Visual discovery and idea sharing platform.",
-    "size": 55,
+    "size": "55 MB",
     "reviews": "3.5M",
     "ratingAvg": 4.5,
     "downloads": "900M",
@@ -252,12 +252,12 @@
     ]
   },
   {
-    "image": "./Appicons/discord.png",
+    "image": "/Appicons/discord.png",
     "title": "Discord",
     "companyName": "Discord Inc.",
     "id": 15,
     "description": "Voice, video, and text chat for communities.",
-    "size": 60,
+    "size": "60 MB",
     "reviews": "4M",
     "ratingAvg": 4.6,
     "downloads": "1B",
@@ -270,12 +270,12 @@
     ]
   },
   {
-    "image": "./Appicons/threads.png",
+    "image": "/Appicons/threads.png",
     "title": "Threads",
     "companyName": "Meta",
     "id": 16,
     "description": "A text-based conversation app by Instagram.",
-    "size": 45,
+    "size": "45 MB",
     "reviews": "2M",
     "ratingAvg": 4.1,
     "downloads": "500M",
@@ -288,12 +288,12 @@
     ]
   },
   {
-    "image": "./Appicons/[CITYPNG.COM]Amazon Prime iOs App Icon - 800x800 (1).png",
+    "image": "/Appicons/[CITYPNG.COM]Amazon Prime iOs App Icon - 800x800 (1).png",
     "title": "Prime Video",
     "companyName": "Amazon",
     "id": 17,
     "description": "Video streaming service from Amazon.",
-    "size": 70,
+    "size": "70 MB",
     "reviews": "3.5M",
     "ratingAvg": 4.4,
     "downloads": "900M",
@@ -306,12 +306,12 @@
     ]
   },
   {
-    "image": "./Appicons/music.png",
+    "image": "/Appicons/music.png",
     "title": "Apple Music",
     "companyName": "Apple Inc.",
     "id": 18,
     "description": "Music streaming service from Apple.",
-    "size": 65,
+    "size": "65 MB",
     "reviews": "2.8M",
     "ratingAvg": 4.6,
     "downloads": "700M",
@@ -324,12 +324,12 @@
     ]
   },
   {
-    "image": "./Appicons/photos.png",
+    "image": "/Appicons/photos.png",
     "title": "Google Photos",
     "companyName": "Google",
     "id": 19,
     "description": "Photo storage and sharing service.",
-    "size": 55,
+    "size": "55 MB",
     "reviews": "5M",
     "ratingAvg": 4.6,
     "downloads": "1.5B",
@@ -342,12 +342,12 @@
     ]
   },
   {
-    "image": "./Appicons/social.png",
+    "image": "/Appicons/social.png",
     "title": "Tinder",
     "companyName": "Match Group",
     "id": 20,
     "description": "Dating and social discovery app.",
-    "size": 50,
+    "size": "50 MB",
     "reviews": "3.7M",
     "ratingAvg": 4.2,
     "downloads": "1B",

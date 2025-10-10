@@ -26,7 +26,7 @@ export default function NavBar() {
                                 </NavLink>
                             </li>
                             <li>
-                                <NavLink to={"/installation"} className={({ isActive }) => `relative px-2 py-1 ${isActive ? 'navlink-active' : 'navlink-inactive'}`}>
+                                <NavLink to={"/install"} className={({ isActive }) => `relative px-2 py-1 ${isActive ? 'navlink-active' : 'navlink-inactive'}`}>
                                     Installation
                                 </NavLink>
                             </li>
@@ -58,7 +58,7 @@ export default function NavBar() {
                             </NavLink>
                         </li>
                         <li>
-                            <NavLink to={"/installation"} className={({isActive}) => `relative px-2 py-1 ${isActive ? 'navlink-active' : 'navlink-inactive'}`}>
+                            <NavLink to={"/install"} className={({isActive}) => `relative px-2 py-1 ${isActive ? 'navlink-active' : 'navlink-inactive'}`}>
                                 Installation
                             </NavLink>
                         </li>
