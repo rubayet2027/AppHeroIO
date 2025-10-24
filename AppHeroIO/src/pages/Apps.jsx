@@ -10,7 +10,7 @@ export default function Apps() {
   const [loading, setLoading] = useState(true);
 
   useEffect(() => {
-    fetch('/public/Apps.json')
+    fetch('/Apps.json')
       .then((response) => response.json())
       .then((data) => {
         setTimeout(() => {

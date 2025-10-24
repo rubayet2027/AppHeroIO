@@ -7,7 +7,7 @@ const TrendingApps = () => {
     const [allApps, setAllApps] = React.useState([]);
 
     React.useEffect(() => {
-        fetch('/public/Apps.json')
+        fetch('/Apps.json')
             .then(response => response.json())
             .then(data => setAllApps(data));
     }, []);

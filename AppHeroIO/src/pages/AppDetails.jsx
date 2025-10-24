@@ -4,6 +4,9 @@ import { BarChart, Bar, XAxis, YAxis, CartesianGrid, Tooltip, ResponsiveContaine
 import { toast, Toaster } from "react-hot-toast";
 import NotFoundApp from "./NotFoundApp";
 import { useInstalled } from '../context/useInstalled';
+import download from '../assets/assets/icon-downloads.png';
+import ratings from '../assets/assets/icon-ratings.png';
+import review from '../assets/assets/icon-review.png';
 
 
 const AppDetails = ({ app: propApp, onGoBack }) => {
@@ -18,7 +21,7 @@ const AppDetails = ({ app: propApp, onGoBack }) => {
   useEffect(() => {
     if (!app && id) {
       setLoading(true);
-      fetch('/public/Apps.json')
+      fetch('/Apps.json')
         .then((res) => res.json())
         .then((data) => {
           const found = data.find((a) => String(a.id) === String(id));
@@ -72,17 +75,17 @@ const chartData = [...app.ratings].reverse().map(rating => ({
 
           <div className="flex flex-wrap gap-20 text-center mt-4 mb-5">
             <div className="flex flex-col items-start text-left">
-              <img src="/src/assets/assets/icon-downloads.png" alt="downloads" className="w-8 h-8" />
+              <img src={download} alt="downloads" className="w-8 h-8" />
               <p className="text-md text-[#627382] mb-1">Downloads</p>
               <p className="text-[#001931] text-3xl font-bold">{app.downloads}</p>
             </div>
             <div className="flex flex-col items-start text-left">
-              <img src="/src/assets/assets/icon-ratings.png" alt="ratings" className="w-8 h-8" />
+              <img src={ratings} alt="ratings" className="w-8 h-8" />
               <p className="text-md text-[#627382] mb-1">Average Rating</p>
               <p className="text-[#001931] text-3xl font-bold">{app.ratingAvg}</p>
             </div>
             <div className="flex flex-col items-start text-left">
-              <img src="/src/assets/assets/icon-review.png" alt="reviews" className="w-8 h-8" />
+              <img src={review} alt="reviews" className="w-8 h-8" />
               <p className="text-md text-[#627382] mb-1">Total Reviews</p>
               <p className="text-[#001931] text-3xl font-bold">{app.reviews}</p>
             </div>

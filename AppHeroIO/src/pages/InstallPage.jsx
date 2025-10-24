@@ -1,6 +1,9 @@
 import React, { useEffect, useState } from 'react';
 import { useInstalled } from '../context/useInstalled';
 import { toast, Toaster } from 'react-hot-toast';
+import download from '../assets/assets/icon-downloads.png';
+import ratings from '../assets/assets/icon-ratings.png';
+
 
 const InstallPage = () => {
   const { installedApps, uninstallApp } = useInstalled();
@@ -93,7 +96,7 @@ const InstallPage = () => {
                   <div className="flex items-center gap-4 text-sm text-gray-500 mt-2">
                     <span className="flex items-center gap-1 text-[#00D390] font-semibold">
                       <img
-                        src="/src/assets/assets/icon-downloads.png"
+                        src={download}
                         alt="downloads"
                         className="w-3 h-3"
                       />
@@ -101,7 +104,7 @@ const InstallPage = () => {
                     </span>
                     <span className="flex items-center gap-1 text-[#FF8811] font-semibold">
                       <img
-                        src="/src/assets/assets/icon-ratings.png"
+                        src={ratings}
                         alt="ratings"
                         className="w-3 h-3"
                       />
